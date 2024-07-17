@@ -1,0 +1,340 @@
+.pizzaSiparisi {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navDiv {
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header {
+    background-color: #CE2829;
+    color: #FAF7F2;
+    padding: 20px;
+    text-align: center;
+    width: 100vw;
+}
+
+.header h1 {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.header nav a {
+    color: #FAF7F2;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header nav a.active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.order-pizza {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.order-pizza h1 {
+    margin-top: 0;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+
+.price-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.price-rating .price {
+    font-size: 24px;
+    color: black;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.price-rating .rating {
+    color: #5F5F5F;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.price-rating .reviews {
+    color: #5F5F5F;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #5F5F5F;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.boyutlar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b1 {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    text-align: left;
+}
+
+.a1 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.a1 label {
+    font-weight: 300;
+    color: #5F5F5F;
+    display: flex;
+    align-items: center;
+}
+
+.a3 {
+    text-align: left;
+    width: 300px;
+}
+
+.b2 {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+label.required::after {
+    content: '*';
+    color: #CE2829;
+    position: absolute;
+    top: 0;
+    left: 130px;
+    font-size: 1.5rem;
+}
+
+label.required {
+    position: relative;
+}
+
+.a2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+select {
+    font-size: 20px;
+    width: 165px;
+}
+
+input[type="radio"],
+select {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-container label {
+    flex: 1 0 30%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: #292929;
+    font-size: 20px;
+}
+
+.a4 {
+    font-size: 25px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.fixed-input {
+    width: 795px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #5F5F5F;
+}
+
+.a6 {
+    display: flex;
+    text-align: left;
+}
+
+.isiminput {
+    display: flex;
+    justify-content: flex-start;
+    width: 35vw;
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.quantity-selector button {
+    background-color: #FDC913;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.quantity-selector span {
+    margin: 10px 15px;
+    font-size: 18px;
+}
+
+.order-summary {
+    background-color: white;
+    padding: 16px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #5F5F5F;
+    text-align: left;
+    width: 500px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.summary-label1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.summary-label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #5F5F5F;
+}
+
+.summary-value {
+    font-size: 16px;
+    color: #5F5F5F;
+}
+
+.summary-label.total {
+    font-weight: bold;
+    color: #CE2829;
+}
+
+.summary-value.total {
+    font-weight: bold;
+    color: #CE2829;
+}
+
+button[type="submit"] {
+    background-color: #FDC913;
+    color: black;
+    border-radius: 5px;
+    padding: 15px 220px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+button[type="submit"]:disabled {
+    background-color: #FDC913;
+    color: #5F5F5F;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.a7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.a8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+form p {
+    color: red;
+    font-size: 20px;
+    padding: left 0;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.p1 {
+    color: #5F5F5F;
+}
+
+.horizontal-line hr {
+    border: none;
+    border-bottom: 1px solid #5F5F5F;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
